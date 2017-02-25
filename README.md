@@ -1,4 +1,4 @@
-# test-es6-promise
+# test-es2015-promise
 
 More: http://www.ecma-international.org/ecma-262/6.0/index.html#sec-promise-constructor
 
@@ -21,8 +21,8 @@ but I will try to resolve this problem myself.
 
 ## How to use it?
 
-```js
-var list = [];
+```javascript
+let list = [];
 
 list.push(function () {
     return new Promise(function (resolve) {
@@ -46,5 +46,4 @@ Promise.chain(list).then(function (response) {
     console.log(response[0]); // 'first one'
     console.log(response[1]); // 'second one'
 });
-
 ```
