@@ -1,4 +1,4 @@
-# test-es2015-promise
+# test-es2015-promise-chain
 
 More: http://www.ecma-international.org/ecma-262/6.0/index.html#sec-promise-constructor
 
