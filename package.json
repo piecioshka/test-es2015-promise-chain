@@ -1,3 +1,11 @@
 {
-  "private": true
+  "private": true,
+  "name": "test-es2015-promise-chain",
+  "scripts": {
+    "deploy": "cross-env NODE_DEBUG=gh-pages gh-pages -d src/"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "gh-pages": "^4.0.0"
+  }
 }

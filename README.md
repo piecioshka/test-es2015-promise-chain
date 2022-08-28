@@ -5,13 +5,13 @@ More: http://www.ecma-international.org/ecma-262/6.0/index.html#sec-promise-cons
 ## For what?
 
 I would like to tests 3 static methods. Two methods are from specification
- 
- - `Promise.all`
- - `Promise.race`
+
+* `Promise.all`
+* `Promise.race`
 
 and third is my
 
- - `Promise.chain`
+* `Promise.chain`
 
 ## My Promise extension
 
@@ -22,7 +22,7 @@ but I will try to resolve this problem myself.
 ## How to use it?
 
 ```javascript
-let list = [];
+const list = [];
 
 list.push(function () {
     return new Promise(function (resolve) {
