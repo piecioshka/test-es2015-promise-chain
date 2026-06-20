@@ -1,6 +1,7 @@
 {
   "private": true,
   "name": "test-es2015-promise-chain",
+  "license": "MIT",
   "scripts": {
     "deploy": "cross-env NODE_DEBUG=gh-pages gh-pages -d src/"
   },

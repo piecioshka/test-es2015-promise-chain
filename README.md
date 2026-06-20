@@ -47,3 +47,7 @@ Promise.chain(list).then(function (response) {
     console.log(response[1]); // 'second one'
 });
 ```
+
+## License
+
+[The MIT License](http://piecioshka.mit-license.org) @ 2026
